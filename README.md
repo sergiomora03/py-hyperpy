@@ -1,5 +1,5 @@
-# hyperapy
-HyperaPy: An automatic hyperparameter optimization framework
+# hyperpy
+HyperPy: An automatic hyperparameter optimization framework
 
 ![PyPI - Status](https://img.shields.io/pypi/status/Bannerquery) ![GitHub top language](https://img.shields.io/github/languages/top/sergiomora03/BannerQuery) ![GitHub](https://img.shields.io/github/license/sergiomora03/BannerQuery) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Bannerquery) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/BannerQuery)
 
