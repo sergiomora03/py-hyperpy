@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 # This call to setup() does all the work
 setuptools.setup(
-    name="hyperpy",
+    name="py-hyperpy",
     version="0.0.1",
     description="HyperPy: An automatic hyperparameter optimization framework",
     long_description=README,
