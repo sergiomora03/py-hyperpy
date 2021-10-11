@@ -4,8 +4,8 @@
 # Author: Sergio A. Mora Pardo <sergiomora823@gmail.com>
 # Project: hyperapy
 
-import hyperapy.core as hy
-from hyperapy.util import ExampleConfig
+import hyperpy.core as hy
+from hyperpy.util import ExampleConfig
 
 data=ExampleConfig()
 train, test, sub = data.readData()
