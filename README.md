@@ -13,7 +13,7 @@ Library for automatic hyperparameter optimization. Build on top of Optuna to per
 
 This library corresponds to part of the work of [Sergio A. Mora Pardo](https://sergiomora03.github.io/)
 
-👶 Our current version: [![PyPI version](https://badge.fury.io/py/hyperpy.svg)](https://badge.fury.io/py/hyperpy)
+👶 Our current version: [![PyPI version](https://badge.fury.io/py/py-hyperpy.svg)](https://badge.fury.io/py/py-hyperpy)
 
 # Installation
 
@@ -22,7 +22,7 @@ This library corresponds to part of the work of [Sergio A. Mora Pardo](https://s
 You can install ```py-hyperpy``` with pip:
 
 ```
-# pip install hyperpy
+# pip install py-hyperpy
 ```
 
 # Example
@@ -75,18 +75,16 @@ Working on tutorial, meanwhile explore documentation.
 
 # Development ![GitHub issues](https://img.shields.io/github/issues/sergiomora03/hyperpy) ![GitHub issues](https://img.shields.io/github/issues-raw/sergiomora03/hyperpy) 
 
-Source code is available at https://github.com/sergiomora03/hyperpy
+Source code is available at [hyperpy](https://github.com/sergiomora03/hyperpy)
 
-https://packaging.python.org/tutorials/creating-documentation/
-
-# Welcome, I've been expecting you.
-![](./img/wellcome.svg)
 
 # Contact
 
+<!--
 <div class="github-card" data-github="sergiomora03" data-width="400" data-height="150" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script> 
+-->
+
+<a href="https://www.buymeacoffee.com/sergiomorapardo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 34px !important;width: 150px !important;" ></a>
 
 ---
-
-<a href="https://www.buymeacoffee.com/sergiomorapardo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
