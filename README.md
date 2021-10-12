@@ -9,7 +9,7 @@ HyperPy: An automatic hyperparameter optimization framework
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sergiomora03/hyperpy/issues)
 
-Library for automatic hyperparameter optimization. Build on top of Optuna to perform hyperparameter optimization with low code.
+HyperPy: Library for automatic hyperparameter optimization. Build on top of Optuna to perform hyperparameter optimization with low code.
 
 This library corresponds to part of the work of [Sergio A. Mora Pardo](https://sergiomora03.github.io/)
 
