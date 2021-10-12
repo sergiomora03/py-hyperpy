@@ -1,7 +1,7 @@
 # [hyperpy](https://hyperapy.readthedocs.io/en/latest/)
 HyperPy: An automatic hyperparameter optimization framework
 
-![PyPI - Status](https://img.shields.io/pypi/status/py-hyperpy) ![GitHub top language](https://img.shields.io/github/languages/top/sergiomora03/py-hyperpy) ![GitHub](https://img.shields.io/github/license/sergiomora03/py-hyperpy) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-hyperpy) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/py-hyperpy)
+![PyPI - Status](https://img.shields.io/pypi/status/py-hyperpy) [![Documentation Status](https://readthedocs.org/projects/hyperapy/badge/?version=latest)](https://hyperapy.readthedocs.io/en/latest/?badge=latest) ![GitHub top language](https://img.shields.io/github/languages/top/sergiomora03/py-hyperpy) ![GitHub](https://img.shields.io/github/license/sergiomora03/py-hyperpy) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-hyperpy) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/py-hyperpy)
 
 ![](img/logo.svg)
 
