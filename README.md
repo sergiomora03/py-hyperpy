@@ -29,6 +29,7 @@ You can install ```hyperpy``` with pip:
 
 Import the library:
 
+<!--
 ```py
 import hyperpy as hy
 from hyperpy import ExampleConfig # Just for example
@@ -47,7 +48,13 @@ Extract features:
 feat_X = train.filter(['Pclass','Age', 'SibSp', 'Parch','Fare']).values
 Y = train.Survived.values
 ```
+-->
 
+Read library
+
+```py
+import hyperpy as hy
+```
 Run the optimization:
 
 ```py
@@ -64,8 +71,14 @@ best_params, best_value = hy.results.results(study)
 ```
 
 **NOTE**
-The function ```hy.run()``` return a ```Study``` object. And only needs: Features, target. In the example: best test accuracy = 0.7407407164573669
 
+- The function ```hy.run()``` return a ```Study``` object. And only needs: Features, target. In the example: best test accuracy = 0.7407407164573669
+- feat_X: features in dataset
+- Y: target in dataset
+
+**IMPORTANT**
+
+At moment only solves binary clasification problems.
 
 # Documentation
 
