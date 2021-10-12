@@ -10,7 +10,7 @@ from zipfile import Path
 import pandas as pd
 
 class ExampleConfig:
-    def __init__(self,workingDirectory:str=os.path.join(os.getcwd()+'\\doc\\data\\titanic.zip')) -> None:
+    def __init__(self,workingDirectory:str=os.path.join(os.getcwd()+'\\docs\\data\\titanic.zip')) -> None:
         self.workingDirectory=workingDirectory
 
     def readData(self) -> pd.DataFrame:

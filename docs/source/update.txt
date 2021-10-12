@@ -1,0 +1,9 @@
+# Go to
+	Path = "path\to\hyperpy"
+# Erease:
+	dist
+	build
+	py_hyperpy.egg-info
+# run:
+	python setup.py sdist bdist_wheel
+	twine upload dist/* --verbose
