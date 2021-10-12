@@ -1,8 +1,8 @@
-Welcome to HyperPy's documentation!
-===================================
-
 .. image:: ../../img/logo.png
    :alt: HyperPy Logo
+
+Welcome to HyperPy's documentation!
+===================================
 
 **HyperPy** (py-hyperpy in PyPi) is a Python library for build an automatic hyperparameter optimization.
 
@@ -60,4 +60,5 @@ Contents
 
    install
    usage
-   api
+   core
+   util

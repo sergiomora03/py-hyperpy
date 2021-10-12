@@ -1,4 +1,4 @@
-install
+Install
 =====
 
 .. _installation:
