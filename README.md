@@ -5,6 +5,8 @@ HyperPy: An automatic hyperparameter optimization framework
 
 ![](img/logo.svg)
 
+[![Documentation Status](https://readthedocs.org/projects/hyperapy/badge/?version=latest)](https://hyperapy.readthedocs.io/en/latest/?badge=latest)
+
 # Description
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sergiomora03/py-hyperpy/issues)
