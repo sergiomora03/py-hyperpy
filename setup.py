@@ -10,7 +10,7 @@ setuptools.setup(
     description="HyperPy: An automatic hyperparameter optimization framework",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/sergiomora03/hyperpy",
+    url="https://github.com/sergiomora03/py-hyperpy",
     author="Sergio A. Mora Pardo",
     author_email="sergiomora823@gmail.com",
     license="MIT",
