@@ -1,7 +1,7 @@
-API
-===
+util
+====
 
 .. autosummary::
    :toctree: generated
 
-   lumache
+   hyperpy.util

@@ -1,8 +1,10 @@
-Welcome to HyperPy's documentation!
-===================================
+install
+=====
 
-.. image:: ../../img/logo.png
-   :alt: HyperPy Logo
+.. _installation:
+
+Installation
+------------
 
 **HyperPy** (py-hyperpy in PyPi) is a Python library for build an automatic hyperparameter optimization.
 
@@ -10,7 +12,7 @@ You can install `hyperpy` with pip:
 
 .. code-block:: console
 
-   # pip install py-hyperpy
+   (.venv) $ pip install py-hyperpy
 
 
 Example
@@ -52,12 +54,3 @@ See the results:
 .. note::
 
    This project is under active development.
-
-Contents
---------
-
-.. toctree::
-
-   install
-   usage
-   api
