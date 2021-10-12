@@ -1,4 +1,4 @@
-# hyperpy
+# [hyperpy](hyperapy.readthedocs.io/en/latest/)
 HyperPy: An automatic hyperparameter optimization framework
 
 ![PyPI - Status](https://img.shields.io/pypi/status/py-hyperpy) ![GitHub top language](https://img.shields.io/github/languages/top/sergiomora03/hyperpy) ![GitHub](https://img.shields.io/github/license/sergiomora03/hyperpy) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-hyperpy) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/py-hyperpy)
@@ -9,7 +9,7 @@ HyperPy: An automatic hyperparameter optimization framework
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sergiomora03/hyperpy/issues)
 
-Library for automatic hyperparameter optimization. Build on top of Optuna to perform hyperparameter optimization with low code.
+HyperPy: Library for automatic hyperparameter optimization. Build on top of Optuna to perform hyperparameter optimization with low code.
 
 This library corresponds to part of the work of [Sergio A. Mora Pardo](https://sergiomora03.github.io/)
 
@@ -17,7 +17,7 @@ This library corresponds to part of the work of [Sergio A. Mora Pardo](https://s
 
 # Installation
 
-![GitHub Release Date](https://img.shields.io/github/release-date/sergiomora03/hyperpy) ![GitHub last commit](https://img.shields.io/github/last-commit/sergiomora03/hyperpy)
+![GitHub Release Date](https://img.shields.io/github/release-date/sergiomora03/py-hyperpy) ![GitHub last commit](https://img.shields.io/github/last-commit/sergiomora03/py-hyperpy)
 
 You can install ```hyperpy``` with pip:
 
