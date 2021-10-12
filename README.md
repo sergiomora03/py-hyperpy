@@ -17,7 +17,7 @@ This library corresponds to part of the work of [Sergio A. Mora Pardo](https://s
 
 # Installation
 
-![GitHub Release Date](https://img.shields.io/github/release-date/sergiomora03/hyperpy) ![GitHub last commit](https://img.shields.io/github/last-commit/sergiomora03/hyperpy)
+![GitHub Release Date](https://img.shields.io/github/release-date/sergiomora03/py-hyperpy) ![GitHub last commit](https://img.shields.io/github/last-commit/sergiomora03/py-hyperpy)
 
 You can install ```hyperpy``` with pip:
 
