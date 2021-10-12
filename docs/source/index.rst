@@ -1,6 +1,9 @@
 Welcome to HyperPy's documentation!
 ===================================
 
+.. image:: ../../img/logo.png
+   :alt: HyperPy Logo
+
 **HyperPy** (py-hyperpy in PyPi) is a Python library for build an automatic hyperparameter optimization.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.

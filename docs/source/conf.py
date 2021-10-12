@@ -4,11 +4,11 @@ from datetime import datetime
 # -- Project information
 
 project = 'hyperpy'
-copyright = f"2021-{datetime.now().year}, the pandas development team"
+copyright = f"2021-{datetime.now().year} Sergio A. Mora Pardo"
 author = 'Sergio A. Mora Pardo'
 
-release = '0.0.1'
-version = '0.0.1'
+release = '0.0.4'
+version = '0.0.4'
 
 # -- General configuration
 
