@@ -61,7 +61,7 @@ pycaret.org. PyCaret, April 2020. URL https://pycaret.org/about. PyCaret version
 
 A formatted version of the citation would look like this::
 
-    @Manual{PyCaret,
+    @Manual{HyperPy,
       author  = {Mora, Sergio},
       title   = {HyperPy: An automatic hyperparameter optimization framework in Python},
       year    = {2021},
