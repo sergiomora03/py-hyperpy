@@ -53,6 +53,23 @@ See the results:
 
    This project is under active development.
 
+**Citing PyCaret**\ :
+
+If you’re citing PyCaret in research or scientific paper, please cite this page as the resource. PyCaret’s first stable release 1.0.0 was made publicly available in April 2020. 
+
+pycaret.org. PyCaret, April 2020. URL https://pycaret.org/about. PyCaret version 1.0.0.
+
+A formatted version of the citation would look like this::
+
+    @Manual{PyCaret,
+      author  = {Mora, Sergio},
+      title   = {HyperPy: An automatic hyperparameter optimization framework in Python},
+      year    = {2021},
+      month   = {October},
+      note    = {HyperPy version 0.0.5},
+      url     = {https://py-hyperpy.readthedocs.io/en/latest/}
+    }
+
 Contents
 --------
 
