@@ -17,6 +17,12 @@ create study:
 
 .. currentmodule:: core
 
+Fisrt of all, you need to import library:
+
+   .. code-block:: console
+
+      (.venv) $ import hyperpy as hy
+
 The library **hyperpy** function by study. This study represent several running
 of an diferents neural networks, to find the best fit. To run a study, you could
 call ``hy.run(feat_X, Y)`` function:
