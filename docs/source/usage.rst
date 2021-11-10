@@ -21,7 +21,9 @@ The library **hyperpy** function by study. This study represent several running
 of an diferents neural networks, to find the best fit. To run a study, you could
 call ``hy.run(feat_X, Y)`` function:
 
-.. autofunction:: hyperpy.run(feat_X, Y):
+.. autoclass:: run
+
+.. autofunction:: buildStudy
 
 The ``Feat_X`` parameter should be the feature to train the model. And ``"Y"``
 represents the target in dataset. However, :py:func:`hy.run(feat_X, Y)`
