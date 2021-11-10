@@ -6,28 +6,30 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use Py-Hyperpy, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install py-hyperpy
 
-create study:
+Create Study
 ----------------
 
 .. currentmodule:: core
 
 Fisrt of all, you need to import library:
 
-   .. code-block:: console
+.. code-block:: console
 
-      (.venv) $ import hyperpy as hy
+   (.venv) $ import hyperpy as hy
 
 The library **hyperpy** function by study. This study represent several running
 of an diferents neural networks, to find the best fit. To run a study, you could
 call ``hy.run(feat_X, Y)`` function:
 
-.. autoclass:: run
+.. autoclass:: core.run
+   :members:
+   :undoc-members:
 
 .. autofunction:: buildStudy
 
