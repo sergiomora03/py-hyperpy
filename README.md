@@ -1,11 +1,14 @@
-# [hyperpy](https://hyperapy.readthedocs.io/en/latest/)
-HyperPy: An automatic hyperparameter optimization framework
 
-![PyPI - Status](https://img.shields.io/pypi/status/py-hyperpy) [![Documentation Status](https://readthedocs.org/projects/hyperapy/badge/?version=latest)](https://hyperapy.readthedocs.io/en/latest/?badge=latest) ![GitHub top language](https://img.shields.io/github/languages/top/sergiomora03/py-hyperpy) ![GitHub](https://img.shields.io/github/license/sergiomora03/py-hyperpy) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-hyperpy) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/py-hyperpy)
+# HyperPy: An automatic hyperparameter optimization framework
 
 ![](img/logo.svg)
 
-# Description
+![PyPI - Status](https://img.shields.io/pypi/status/py-hyperpy) [![Documentation Status](https://readthedocs.org/projects/py-hyperpy/badge/?version=latest)](https://hyperapy.readthedocs.io/en/latest/?badge=latest) ![GitHub top language](https://img.shields.io/github/languages/top/sergiomora03/py-hyperpy) ![GitHub](https://img.shields.io/github/license/sergiomora03/py-hyperpy) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-hyperpy) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/py-hyperpy)
+
+👶current version: [![PyPI version](https://badge.fury.io/py/py-hyperpy.svg)](https://badge.fury.io/py/py-hyperpy)
+
+
+## Description
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sergiomora03/py-hyperpy/issues)
 
@@ -13,9 +16,7 @@ HyperPy: Library for automatic hyperparameter optimization. Build on top of Optu
 
 This library corresponds to part of the work of [Sergio A. Mora Pardo](https://sergiomora03.github.io/)
 
-👶 Our current version: [![PyPI version](https://badge.fury.io/py/py-hyperpy.svg)](https://badge.fury.io/py/py-hyperpy)
-
-# Installation
+## Installation
 
 ![GitHub Release Date](https://img.shields.io/github/release-date/sergiomora03/py-hyperpy) ![GitHub last commit](https://img.shields.io/github/last-commit/sergiomora03/py-hyperpy)
 
@@ -25,7 +26,7 @@ You can install ```hyperpy``` with pip:
 # pip install py-hyperpy
 ```
 
-# Example
+## Example
 
 Import the library:
 
@@ -80,7 +81,7 @@ best_params, best_value = hy.results.results(study)
 
 At moment only solves binary clasification problems.
 
-# Documentation
+## Documentation
 
 Documentation is available at [hyperpy](https://hyperapy.readthedocs.io/en/latest/)
 
@@ -91,7 +92,7 @@ Working on tutorial, meanwhile explore documentation.
 Source code is available at [hyperpy](https://github.com/sergiomora03/hyperpy)
 
 
-# Contact
+## Contact
 
 <!--
 <div class="github-card" data-github="sergiomora03" data-width="400" data-height="150" data-theme="default"></div>
@@ -99,5 +100,3 @@ Source code is available at [hyperpy](https://github.com/sergiomora03/hyperpy)
 -->
 
 <a href="https://www.buymeacoffee.com/sergiomorapardo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 34px !important;width: 150px !important;" ></a>
-
----
