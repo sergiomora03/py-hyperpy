@@ -55,9 +55,8 @@ See the results:
 
 **Citing PyCaret**\ :
 
-If you’re citing PyCaret in research or scientific paper, please cite this page as the resource. PyCaret’s first stable release 1.0.0 was made publicly available in April 2020. 
-
-pycaret.org. PyCaret, April 2020. URL https://pycaret.org/about. PyCaret version 1.0.0.
+If you’re citing HyperPy in research or scientific paper, please cite this page as the resource. HyperPy’s first stable release 0.0.5 was made publicly available in October 2021. 
+py-hyperpy.readthedocs. HyperPy, October 2021. URL https://py-hyperpy.readthedocs.io/en/latest/. HyperPy version 0.0.5.
 
 A formatted version of the citation would look like this::
 
@@ -70,12 +69,35 @@ A formatted version of the citation would look like this::
       url     = {https://py-hyperpy.readthedocs.io/en/latest/}
     }
 
-Contents
---------
+We are appreciated that HyperPy has been increasingly referred and cited in scientific works. See all citations here: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=hyperpy&btnG=
+
+
+**Key Links and Resources**\ :
+
+* `Release Notes <https://github.com/sergiomora03/py-hyperpy/releases>`_
+* `Example Notebooks <https://github.com/sergiomora03/py-hyperpy/tree/master/examples>`_
+* `Blog Posts <https://github.com/sergiomora03/py-hyperpy/tree/master/resources>`_
+* `Contribute <https://github.com/sergiomora03/py-hyperpy/blob/master/CONTRIBUTING.md>`_
+* `More about HyperPy <https://py-hyperpy.readthedocs.io/en/latest/>`_
+
 
 .. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Getting Started
 
-   install
-   usage
-   core
-   util
+   self
+   installation
+   tutorials
+   contribute
+   modules
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Documentation
+
+   api/classification
+   api/regression
+   api/nlp
+   api/datasets
