@@ -15,7 +15,7 @@ MOCK_MODULES = [
     'sklearn.model_selection',
     'keras.layers',
     'keras.models',
-    'zipfile'
+    'zipfile.Path'
 ]
 
 for mod_name in MOCK_MODULES:
