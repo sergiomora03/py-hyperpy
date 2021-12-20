@@ -18,7 +18,7 @@ You can install `hyperpy` with pip:
 Example
 ----------------
 
-Read library:
+import library:
 
 .. code-block:: python
 

@@ -86,8 +86,9 @@ We are appreciated that HyperPy has been increasingly referred and cited in scie
    :hidden:
    :caption: Getting Started
 
-   install
    self
+   install
+   ../hyperpy/core
    installation
    tutorials
    contribute
