@@ -16,7 +16,7 @@ You can install `hyperpy` with pip:
 Example
 ----------------
 
-Read library:
+import library:
 
 .. code-block:: python
 
@@ -51,7 +51,7 @@ See the results:
 
 .. note::
 
-   This project is under active development.
+   This project is active development.
 
 **Citing HyperPy**\ :
 
@@ -86,6 +86,7 @@ We are appreciated that HyperPy has been increasingly referred and cited in scie
    :hidden:
    :caption: Getting Started
 
+   install
    self
    installation
    tutorials
