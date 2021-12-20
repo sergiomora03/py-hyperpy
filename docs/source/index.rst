@@ -82,13 +82,14 @@ We are appreciated that HyperPy has been increasingly referred and cited in scie
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 6
    :hidden:
    :caption: Getting Started
 
    self
    install
    usage
+   core
    tutorials
    contribute
    modules
