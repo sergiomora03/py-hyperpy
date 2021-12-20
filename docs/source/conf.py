@@ -35,6 +35,8 @@ autodoc_mock_imports = ["setup"]
 
 templates_path = ['_templates']
 
+autodoc_member_order = "bysource"
+
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
