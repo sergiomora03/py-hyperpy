@@ -71,7 +71,7 @@ The class :class:`trainers` build trainers for the model.
    :members:
    :undoc-members:
 
-Th final idea, is to select by several type of trainers. By the way, at moment have onle one trainer:
+The final idea, is to select by several type of trainers. By the way, at moment have onle one trainer:
 
 .. autofunction:: hyperpy.core.trainers.trainer
 
@@ -91,3 +91,18 @@ To run a study, you could call ``hy.run(feat_X, Y)`` function:
 .. autofunction:: hyperpy.core.run.buildStudy
 
 .. autofunction:: hyperpy.core.run.objective
+
+.. _class-results:
+
+Class results
+---------
+
+.. currentmodule:: hyperpy.core
+
+To read results from a study, you could call ``hy.results(study)`` function:
+
+.. autoclass:: hyperpy.core.results
+   :members:
+   :undoc-members:
+
+.. autofunction:: hyperpy.core.results.results
