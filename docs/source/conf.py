@@ -3,7 +3,19 @@ from datetime import datetime
 import sys, os
 import mock
 
-MOCK_MODULES = ['keras']
+MOCK_MODULES = [
+    'keras',
+    'optuna',
+    'plotly',
+    'warnings',
+    'numpy',
+    'pandas',
+    'tensorflow',
+    'prettytable',
+    'matplotlib',
+    'sklearn',
+]
+
 for mod_name in MOCK_MODULES:
     sys.modules[mod_name] = mock.Mock()
 
