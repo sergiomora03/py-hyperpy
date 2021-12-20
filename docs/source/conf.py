@@ -13,6 +13,8 @@ MOCK_MODULES = [
     'prettytable',
     'sklearn.metrics',
     'sklearn.model_selection',
+    'keras.layers',
+    'keras.models'
 ]
 
 for mod_name in MOCK_MODULES:
