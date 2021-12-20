@@ -82,7 +82,7 @@ We are appreciated that HyperPy has been increasingly referred and cited in scie
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
    :caption: Getting Started
 
