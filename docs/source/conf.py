@@ -5,7 +5,6 @@ import sys, os
 sys.path.insert(0, os.path.abspath('../..'))
 
 sys.path.append(os.path.abspath('sphinxext'))
-sys.path.append(os.path.abspath('keras'))
 
 # -- Project information
 
@@ -18,13 +17,23 @@ version = '0.0.4'
 
 # -- General configuration
 
+# ? extensions = [
+# ?     'sphinx.ext.duration',
+# ?     'sphinx.ext.doctest',
+# ?     'sphinx.ext.autodoc',
+# ?     'sphinx.ext.autosummary',
+# ?     'sphinx.ext.intersphinx',
+# ? ]
+
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    "sphinx_rtd_theme",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.napoleon",
 ]
+
+napoleon_google_docstring = True
+napoleon_numpy_docstring = True
+
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
