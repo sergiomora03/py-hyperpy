@@ -12,6 +12,7 @@ To use Py-Hyperpy, first install it using pip:
 
    (.venv) $ pip install py-hyperpy
 
+.. _create-study:
 Create Study
 ----------------
 

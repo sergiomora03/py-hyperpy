@@ -15,6 +15,8 @@ You can install `hyperpy` with pip:
    (.venv) $ pip install py-hyperpy
 
 
+.. _example:
+
 Example
 ----------------
 

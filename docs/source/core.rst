@@ -1,9 +1,9 @@
 Core
-===
+=======
 
-.. _installation:
+.. _models:
 
-Class Models
+Models
 ------------
 
 class models:
