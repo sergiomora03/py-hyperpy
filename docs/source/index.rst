@@ -90,6 +90,7 @@ We are appreciated that HyperPy has been increasingly referred and cited in scie
    install
    usage
    core
+   util
    tutorials
    contribute
    modules

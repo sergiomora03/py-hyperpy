@@ -55,4 +55,4 @@ See the results:
 
 .. note::
 
-   This project is under active development.
+   This project is active development.
