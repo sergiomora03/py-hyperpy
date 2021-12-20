@@ -11,7 +11,7 @@ MOCK_MODULES = [
     'pandas',
     'tensorflow',
     'prettytable',
-    'matplotlib',
+    'matplotlib.pyplot',
     'sklearn',
 ]
 
