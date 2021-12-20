@@ -7,4 +7,4 @@
 from hyperpy.core import *
 from hyperpy.util import *
 
-__all__ = ['Code','util']
+__all__ = ['core','util']

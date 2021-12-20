@@ -7,3 +7,6 @@ Models
 ------------
 
 class models:
+
+.. automodule:: hyperpy.core
+   :members:

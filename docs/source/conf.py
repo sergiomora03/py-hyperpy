@@ -1,6 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 from datetime import datetime
 import sys, os
+import keras
 
 sys.path.insert(0, os.path.abspath('../..'))
 
