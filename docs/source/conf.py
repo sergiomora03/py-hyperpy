@@ -3,25 +3,25 @@ from datetime import datetime
 import sys, os
 
 # TODO: Delete mocks in docs/source/conf.py and replace with requirements.txt
-# ? import mock
-# ? 
-# ? MOCK_MODULES = [
-# ?     'keras',
-# ?     'optuna',
-# ?     'plotly',
-# ?     'numpy',
-# ?     'pandas',
-# ?     'tensorflow',
-# ?     'prettytable',
-# ?     'sklearn.metrics',
-# ?     'sklearn.model_selection',
-# ?     'keras.layers',
-# ?     'keras.models',
-# ?     'zipfile.Path'
-# ? ]
-# ? 
-# ? for mod_name in MOCK_MODULES:
-# ?     sys.modules[mod_name] = mock.Mock()
+import mock
+
+MOCK_MODULES = [
+    'keras',
+    'optuna',
+    'plotly',
+    'numpy',
+    'pandas',
+    'tensorflow',
+    'prettytable',
+    'sklearn.metrics',
+    'sklearn.model_selection',
+    'keras.layers',
+    'keras.models',
+    'zipfile.Path'
+]
+
+for mod_name in MOCK_MODULES:
+    sys.modules[mod_name] = mock.Mock()
 
 sys.path.insert(0, os.path.abspath('../..'))
 sys.path.append(os.path.abspath('sphinxext'))
