@@ -53,7 +53,7 @@ See the results:
 
    This project is under active development.
 
-**Citing PyCaret**\ :
+**Citing HyperPy**\ :
 
 If you’re citing HyperPy in research or scientific paper, please cite this page as the resource. HyperPy’s first stable release 0.0.5 was made publicly available in October 2021. 
 py-hyperpy.readthedocs. HyperPy, October 2021. URL https://py-hyperpy.readthedocs.io/en/latest/. HyperPy version 0.0.5.
