@@ -1,9 +1,13 @@
 # Configuration file for the Sphinx documentation builder.
 from datetime import datetime
 import sys, os
+import mock
+
+MOCK_MODULES = ['keras']
+for mod_name in MOCK_MODULES:
+    sys.modules[mod_name] = mock.Mock()
 
 sys.path.insert(0, os.path.abspath('../..'))
-
 sys.path.append(os.path.abspath('sphinxext'))
 
 # -- Project information
