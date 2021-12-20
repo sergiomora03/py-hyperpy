@@ -38,7 +38,7 @@ Class optimizers
 
 The class :class:`optimizers` build optimizers for the model.
 
-.. autoclass:: hyperpy.core.models
+.. autoclass:: hyperpy.core.optimizers
    :members:
    :undoc-members:
 
