@@ -1,5 +1,8 @@
 # Configuration file for the Sphinx documentation builder.
 from datetime import datetime
+import sys, os
+
+sys.path.append(os.path.abspath('sphinxext'))
 
 # -- Project information
 
