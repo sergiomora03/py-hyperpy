@@ -44,6 +44,20 @@ class models:
         min_units:int=4,
         max_units:int=128
     ) -> None:
+        """
+        __init__ parametert to build a model
+
+        :param initnorm: type of initializer, defaults to keras.initializers.RandomNormal(mean=0.0, stddev=0.05, seed=1)
+        :type initnorm: keras.initializers, optional
+        :param min_layers: min number of layer in neural network, defaults to 1
+        :type min_layers: int, optional
+        :param max_layers: max number of layers in reural network, defaults to 13
+        :type max_layers: int, optional
+        :param min_units: min number of units or neurons, defaults to 4
+        :type min_units: int, optional
+        :param max_units: max number of units or neurons, defaults to 128
+        :type max_units: int, optional
+        """
         self.initnorm=initnorm
         self.min_layers=min_layers
         self.max_layers=max_layers
