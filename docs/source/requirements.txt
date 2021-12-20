@@ -1,3 +1,6 @@
 sphinx>=3.0.0
 sphinx-rtd-theme>=0.5.0
-py-hyperpy>=0.0.5
+optuna==2.6.0
+keras==2.4.3
+tensorflow==2.4.1
+sklearn==0.24.2
