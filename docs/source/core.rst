@@ -1,6 +1,11 @@
 Core
 ===
 
+.. _installation:
+
+Class Models
+------------
+
 class models:
     """
      Class to build a model with a given topology
