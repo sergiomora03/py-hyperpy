@@ -7,7 +7,6 @@ MOCK_MODULES = [
     'keras',
     'optuna',
     'plotly',
-    'warnings',
     'numpy',
     'pandas',
     'tensorflow',
