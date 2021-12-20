@@ -12,6 +12,7 @@ MOCK_MODULES = [
     'tensorflow',
     'prettytable',
     'matplotlib.pyplot',
+    'matplotlib.colors',
     'sklearn',
 ]
 
