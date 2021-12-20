@@ -12,9 +12,9 @@ import warnings
 import numpy as np
 import pandas as pd
 import tensorflow as tf
-import matplotlib.pyplot as plt
+# ? import matplotlib.pyplot as plt
 from prettytable import PrettyTable
-from matplotlib.colors import LogNorm
+# ? from matplotlib.colors import LogNorm
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 from keras.models import Model, Sequential, load_model
