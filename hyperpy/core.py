@@ -253,7 +253,7 @@ class run():
     """
     run class is used to run the experiment.
     """
-    def __init__(self,feat_X,Y,study_name:str='First try', direction:str="maximize", n_trials=10) -> None:
+    def __init__(self,feat_X,Y,study_name:str='First try', direction:str="maximize", n_trials:int=10) -> None:
         """
         __init__ class is used to initialize the run class.
 
