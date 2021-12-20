@@ -11,7 +11,8 @@ MOCK_MODULES = [
     'pandas',
     'tensorflow',
     'prettytable',
-    'sklearn',
+    'sklearn.metrics',
+    'sklearn.model_selection',
 ]
 
 for mod_name in MOCK_MODULES:
