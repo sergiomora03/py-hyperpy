@@ -36,8 +36,19 @@ class models:
     """
      Class to build a model with a given topology
     """
-    def __init__(self,initnorm=keras.initializers.RandomNormal(mean=0.0, stddev=0.05, seed=1)) -> None:
+    def __init__(
+        self,
+        initnorm=keras.initializers.RandomNormal(mean=0.0, stddev=0.05, seed=1),
+        min_layers:int=1,
+        max_layers:int=13,
+        min_units:int=4,
+        max_units:int=128
+    ) -> None:
         self.initnorm=initnorm
+        self.min_layers=min_layers
+        self.max_layers=max_layers
+        self.min_units = min_units
+        self.max_units = max_units
 
     def BuildModelSimply(trial:optuna.Trial, self) -> keras.models.Model:
         """
@@ -48,11 +59,11 @@ class models:
         :return: sequential model
         :rtype: keras.models.Model.Sequential
         """
-        n_layers = trial.suggest_int('n_layers', 1, 13)
-        activation_selected = trial.suggest_categorical(f"activation_units_layer_{i}", ["selu", "sigmoid", "tanh"])
+        n_layers = trial.suggest_int('n_layers', self.min_layers, self.max_layers)
+        activation_selected = trial.suggest_categorical(f"activation_units_layer_", ["selu", "sigmoid", "tanh"])
         model = Sequential()
         for i in range(n_layers):
-            num_hidden = trial.suggest_int(f"n_units_layer_{i}", 4, 128, log=True)
+            num_hidden = trial.suggest_int(f"n_units_layer_{i}", self.min_units, self.max_units, log=True)
             model.add(Dense(num_hidden, activation=activation_selected, kernel_initializer=self.initnorm, bias_initializer='zeros'))
         model.add(Dense(1, activation='sigmoid', kernel_initializer=self.initnorm, bias_initializer='zeros'))
         return model
@@ -66,11 +77,11 @@ class models:
         :return: sequential model
         :rtype: keras.models.Model
         """
-        n_layers = trial.suggest_int('n_layers', 1, 13)
+        n_layers = trial.suggest_int('n_layers', self.min_layers, self.max_layers)
         model = Sequential()
         for i in range(n_layers):
             activation_selected = trial.suggest_categorical(f"activation_units_layer_{i}", ["selu", "sigmoid", "tanh"])
-            num_hidden = trial.suggest_int(f"n_units_layer_{i}", 4, 128, log=True)
+            num_hidden = trial.suggest_int(f"n_units_layer_{i}",self.min_units, self.max_units, log=True)
             model.add(Dense(num_hidden, activation=activation_selected, kernel_initializer=self.initnorm, bias_initializer='zeros'))
         model.add(Dense(1, activation='sigmoid', kernel_initializer=self.initnorm, bias_initializer='zeros'))
         return model
