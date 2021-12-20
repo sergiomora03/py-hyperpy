@@ -2,7 +2,7 @@
 from datetime import datetime
 import sys, os
 
-sys.path.insert(0, os.path.abspath('../../hyperpy'))
+sys.path.insert(0, os.path.abspath('../..'))
 
 sys.path.append(os.path.abspath('sphinxext'))
 
