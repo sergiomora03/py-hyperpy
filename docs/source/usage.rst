@@ -34,7 +34,7 @@ call ``hy.run(feat_X, Y)`` function:
 
 .. autofunction:: buildStudy
 
-The ``Feat_X`` parameter should be the feature to train the model. And ``"Y"``
+The ``Feat_X`` parameter should be the feature to train the model. And ``Y``
 represents the target in dataset. However, :py:func:`hy.run`
 at the moment just run clasification problems and run study with doble cross validation.
 
