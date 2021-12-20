@@ -45,7 +45,7 @@ See the results:
 
 .. note::
 
-   - The function `hy.run()` return a `Study` object. And only needs: Features, target. In the example: best test accuracy = 0.7407407164573669
+   - The function `hy.run()` return a `Study` object. And only needs\: Features, target. In the example: best test accuracy = 0.7407407164573669
    - *feat_X*: features in dataset
    - *Y*: target in dataset
 
