@@ -1,7 +1,7 @@
 Util
 ====
 
-.. autosummary::
-   :toctree: generated
+.. currentmodule:: hyperpy.util
 
-   hyperpy.util
+.. automodule:: hyperpy.util
+   :members:

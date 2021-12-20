@@ -96,7 +96,7 @@ We are appreciated that HyperPy has been increasingly referred and cited in scie
    modules
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :hidden:
    :caption: Documentation
 
