@@ -88,8 +88,7 @@ We are appreciated that HyperPy has been increasingly referred and cited in scie
 
    self
    install
-   ../hyperpy/core
-   installation
+   usage
    tutorials
    contribute
    modules
